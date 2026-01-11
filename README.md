@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🎉 SneakTalk 🔒💬
 
-First, run the development server:
+SneakTalk is a fun, privacy-first, real-time chat application built exclusively for two-person conversations. Messages automatically self-destruct after a defined time, ensuring conversations leave no history, no backups, and no digital footprint.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Built with modern web technologies, SneakTalk focuses on speed, simplicity, and temporary communication by design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔗 ***Live Site: https://sneak-talk.vercel.app/***
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+--- 
+## 🚀 Features
 
-## Learn More
+- 🔐 One-to-One Only — No groups, no channels, no noise
 
-To learn more about Next.js, take a look at the following resources:
+- ⏳ Self-Destructing Messages — Chats vanish after a set time
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ⚡ Real-Time Messaging — Instant delivery with low latency
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🧹 No Chat History — Once gone, messages are permanently removed
 
-## Deploy on Vercel
+- 🧩 Lightweight & Fast — Minimal overhead, optimized performance
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🛡️ Privacy by Default — No public profiles or message storage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ Tech Stack
+
+| Technology          | Purpose                                        |
+| ------------------- | ---------------------------------------------- |
+| **ElysiaJS + Eden** | Backend framework & type-safe API client       |
+| **TanStack**        | State management & data fetching               |
+| **Upstash**         | Serverless Redis for ephemeral message storage |
+| **Zod**             | Schema validation and runtime type safety      |
+| **NanoID**          | Secure, collision-resistant ID generation      |
+| **Tailwind CSS**    | Utility-first styling                          |
+| **TypeScript**      | End-to-end type safety                         |
+
+
+---
+
+## 🤝Contributing
+
+We welcome contributions! If you would like to improve, feel free to fork the repository, create a feature branch, and submit a pull request.
+
+- Fork the repository
+
+- Create a new branch (git checkout -b feature-branch)
+
+- Make your changes
+
+- Commit your changes (git commit -am 'Add new feature')
+
+- Push to the branch (git push origin feature-branch)
+
+- Create a pull request
+
+---
+
+## 📱Deployment
+
+Deployed on Vercel. 
+
+### 🌐**Link : https://sneak-talk.vercel.app/**
+
+
+---
+## 🗂️Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+- Upstash Redis 
+
+**Note** - Please use your own API keys. API keys are sensitive information and should not be exposed to the frontend or in public repositories.
+
+Always store them in the .env.local file and use environment variables to keep them secure.
+
+
+---
